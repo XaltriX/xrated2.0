@@ -33,7 +33,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5706788169"))
 #Port
 PORT = os.environ.get("PORT", "8080")
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://shexplanation33:9UMDhSeL4TNcuGVE@cluster0.rgjnbl3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://teddugovardhan544_db_user:WVjIA96jQ31net0j@cluster0.kwkkleo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluser10")
 
 #Time in seconds for message delete, put 0 to never delete
