@@ -27,7 +27,7 @@ API_HASH = os.environ.get("API_HASH", "f317b3f7bbe390346d8b46868cff0de8")
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002004278204"))
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "")
+OWNER = os.environ.get("OWNER", "neonghost")
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5706788169"))
 #Port
@@ -59,7 +59,7 @@ TOKEN = True if os.environ.get('TOKEN', "False") == "True" else False  #For Enab
 #TOKEN = False if os.environ.get('TOKEN', "FALSE") == 'FALSE' else False # For disable Token 
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "pocolinks.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "d2c9128d105fdcc0ed9a77e95965c9d92cb83933")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "031c939cdeaa0f3a1fa8795c023ea313bf2b594b")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 57600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/TutorialsNG/11")
