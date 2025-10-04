@@ -58,11 +58,11 @@ TOKEN = True if os.environ.get('TOKEN', "False") == "True" else False  #For Enab
 
 #TOKEN = False if os.environ.get('TOKEN', "FALSE") == 'FALSE' else False # For disable Token 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "pocolinks.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "031c939cdeaa0f3a1fa8795c023ea313bf2b594b")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "vplink.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "5fc87479ac0c4c2d2ed0510089fe5493073800d6")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 57600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/TutorialsNG/11")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/TutorialsNG/13")
 
 
 HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Hot Spot \n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ᴀʟʟ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/NeonGhost>NeonGhost</a></blockquote></b>"
@@ -74,7 +74,7 @@ ABOUT_TXT = """
 
 🎥 <b>Free Videos ᴄʜᴀɴɴᴇʟ:</b> <a href='https://t.me/+xCSqYXXlc3E1NDBk'>Lust Diaries 2.0</a>
 🍿 <b>Movie Search ɢʀᴏᴜᴘ:</b> <a href='https://t.me/+DU6yY8lZ45dlOTc0'>NEW MOVIE REQUEST GROUP</a>
-📱 <b>Paid Apps & MOD APK:</b> <a href='https://t.me/+tQEq4Nb0Rqo2M2Rk'>Paid Apps & MOD APK</a>
+📱 <b>Paid Apps & MOD APK:</b> <a href='https://t.me/+ruijMWCW92Q1Y2M0'>Paid Apps & MOD APK</a>
 
 💻 <b>ᴅᴇᴠᴇʟᴏᴘᴇʀ:</b> <a href='https://t.me/NeonGhost'>NeonGhost</a>
 </blockquote></b>
