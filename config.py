@@ -34,7 +34,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5706788169"))
 PORT = os.environ.get("PORT", "8080")
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://teddugovardhan544_db_user:WVjIA96jQ31net0j@cluster0.kwkkleo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluser10")
+DB_NAME = os.environ.get("DATABASE_NAME", "nightrider")
 
 #Time in seconds for message delete, put 0 to never delete
 TIME = int(os.environ.get("TIME", "3600"))
@@ -43,8 +43,8 @@ TIME = int(os.environ.get("TIME", "3600"))
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001980994910"))
 #put 0 to disable
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))#put 0 to disable
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))#put 0 to disable
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002230957020"))#put 0 to disable
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002343938274"))#put 0 to disable
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to disable
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
@@ -58,11 +58,11 @@ TOKEN = True if os.environ.get('TOKEN', "True") == "True" else False  #For Enabl
 
 #TOKEN = False if os.environ.get('TOKEN', "FALSE") == 'FALSE' else False # For disable Token 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "vplink.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "5fc87479ac0c4c2d2ed0510089fe5493073800d6")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "shortxlinks.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "c55c566760e3be49e77dad33024e8f94c36c42fb")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 57600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/TutorialsNG/13")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/TutorialsNG/19")
 
 
 HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Hot Spot \n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ᴀʟʟ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/NeonGhost>NeonGhost</a></blockquote></b>"
@@ -72,7 +72,7 @@ ABOUT_TXT = """
 ✨ <b>ᴄʀᴇᴀᴛᴏʀ:</b> <a href='https://t.me/NeonGhost'>NeonGhost</a>
 🌐 <b>ꜰᴏᴜɴᴅᴇʀ ᴏꜰ:</b> <a href='https://t.me/NeonGhost_Network'>NeonGhost Network</a>
 
-🎥 <b>Free Videos ᴄʜᴀɴɴᴇʟ:</b> <a href='https://t.me/+xCSqYXXlc3E1NDBk'>Lust Diaries 2.0</a>
+🎥 <b>Free Videos ᴄʜᴀɴɴᴇʟ:</b> <a href='https://t.me/+su9MtjllG5sxYTVk'>Lust Diaries 2.0</a>
 🍿 <b>Movie Search ɢʀᴏᴜᴘ:</b> <a href='https://t.me/+DU6yY8lZ45dlOTc0'>NEW MOVIE REQUEST GROUP</a>
 📱 <b>Paid Apps & MOD APK:</b> <a href='https://t.me/+ruijMWCW92Q1Y2M0'>Paid Apps & MOD APK</a>
 
